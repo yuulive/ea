@@ -5,7 +5,7 @@
 //! # Sample showcase
 //! ## Case 1 chain by using a helper macro
 //! ```rust
-//! use fn_chain::chain;
+//! use ea::chain;
 //! 
 //! fn simple_add(a : i32, b : i32, c : i32) -> i32 {
 //!     a + b + c
@@ -41,7 +41,7 @@
 //! ```
 //! ## Case 2 chain by using helper function
 //! ```rust
-//! use fn_chain::chain;
+//! use ea::chain;
 //! 
 //! fn simple_add(a : i32, b : i32, c : i32) -> i32 {
 //!     a + b + c
@@ -65,7 +65,7 @@
 /// 
 /// For example: 
 /// ```rust
-/// use fn_chain::chain;
+/// use ea::chain;
 /// let result = chain!((|a, b, c| a + b + c)(1i32, 2, 3), |d| d * 2);
 /// assert_eq!(12, result);
 /// // The macro will expand into something like this
@@ -76,7 +76,7 @@
 /// ```
 /// Another example using function:
 /// ```rust
-/// use fn_chain::chain;
+/// use ea::chain;
 /// fn function(a : i32, b : i32, c : i32) -> i32{
 ///     a + b + c
 /// }
@@ -410,7 +410,7 @@ impl<R> std::ops::Deref for Chainable<R> {
 /// 
 /// ## Example
 /// ```rust
-/// use fn_chain::chain;
+/// use ea::chain;
 /// 
 /// fn function1(a : i32, b : i32, c : i32) -> i32 {
 ///     a + b + c

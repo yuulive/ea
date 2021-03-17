@@ -1,9 +1,9 @@
-# fn_trait library
+# ea trait library
 This trait provide helper function and macro called `chain` to ease chaining of function where output of first function piped directly as input to another function and so forth.
 
 ## Use case 1 - Macro `chain`
 ```rust
-use fn_chain::chain;
+use ea::chain;
 
 fn simple_add(a : i32, b : i32, c : i32) -> i32 {
     a + b + c
@@ -27,7 +27,7 @@ assert_eq!(
 
 ## Use case 2 - function `chain`
 ```rust
-use fn_chain::chain;
+use ea::chain;
 
 fn simple_add(a : i32, b : i32, c : i32) -> i32 {
     a + b + c

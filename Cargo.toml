@@ -1,11 +1,11 @@
 [package]
-name = "fn_chain"
+name = "ea"
 version = "0.1.2"
 authors = ["Nattapong Sirilappanich <s.nattapong@gmail.com>"]
 edition = "2018"
 readme = "README.md"
-description = "Helper macro/function to create function chaining"
-repository = "https://github.com/NattapongSiri/fn_chain"
+description = "Ea is helper macro/function to create function chaining"
+repository = "https://github.com/yuulive/ea"
 license = "BSD-3-Clause"
 keywords = ["helper", "chain", "functions", "chaining", "pattern"]
 categories = ["development-tools", "rust-patterns"]
